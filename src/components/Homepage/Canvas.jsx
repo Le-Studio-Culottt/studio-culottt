@@ -15,7 +15,7 @@ export default function Canvas () {
               <CanvasScratch id="scratch" width="500" height="500" />
           }
       </article>
-      <h1 className="home-title">Le Studio qui enrichit l'image des vignerons</h1>
+      <h1 className="home-title">Coucou Le Studio qui enrichit l'image des vignerons</h1>
     </section>
   )
 }

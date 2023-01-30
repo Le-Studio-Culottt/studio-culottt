@@ -1,0 +1,144 @@
+/* SAVOIR - COMPETENCES */
+.competences{
+    margin-bottom: var(--margin-b-1);
+    height: 550px;
+    overflow: hidden;
+    grid-column: 1 / 12;
+}
+.competences ul{
+    margin-top: var(--margin-b-1);
+    position: relative;
+}
+.competences ul li{
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.competences ul li:hover{
+    background-position:center!important;
+    background-repeat:no-repeat!important;
+    background-size: 200px 200px!important;
+    position: absolute;
+    z-index: -1;
+}
+.competences .competence-1{
+    top: -60px;
+    left: 0;
+    rotate: 355deg;
+}
+.competences .competence-2{
+    top: -40px;
+    right: 20px;
+    rotate: 25deg;
+}
+.competences .competence-3{
+    top: 30px;
+    left: 115px;
+    rotate: 8deg;
+}
+.competences .competence-4{
+    top: 90px;
+    right: -10px;
+    rotate: 352deg;
+}
+.competences .competence-5{
+    top: 255px;
+    left: -15px;
+    rotate: 35deg;
+}
+.competences .competence-6{
+    top: 230px;
+    right: 20px;
+    rotate: 325deg;
+}
+.competences .competence-7{
+    top: 90px;
+    left: -10px;
+    rotate: 5deg;
+}
+.competences .competence-8{
+    top: 190px;
+    left: 110px;
+    rotate: 322deg;
+}
+.competences .competence-1:hover{
+    background: url("https://media.giphy.com/media/l3q2wCnKRThy8ltxS/giphy.gif");
+}
+.competences .competence-2:hover{
+    background: url("https://media.giphy.com/media/l2Sq0ogljPAubE2nS/giphy.gif");
+}
+.competences .competence-3:hover{
+    background: url("https://media.giphy.com/media/k5DMbZaSpF21cvWIue/giphy.gif");
+}
+.competences .competence-4:hover{
+    background: url("https://media.giphy.com/media/WTdOnTQJwTHmhifwGE/giphy.gif");
+}
+.competences .competence-5:hover{
+    background: url("https://media.giphy.com/media/BPJmthQ3YRwD6QqcVD/giphy.gif");
+}
+.competences .competence-6:hover{
+    background: url("https://media.giphy.com/media/3ohhwId7GGaSbawn7O/giphy.gif");
+}
+.competences .competence-7:hover{
+    background: url("https://media.giphy.com/media/iebqkcA0GBBjHFKROw/giphy.gif");
+}
+.competences .competence-8:hover{
+    background: url("https://media.giphy.com/media/iWTnpqPv2N1PG/giphy.gif");
+}
+/* DESK - COMPETENCES */
+main.desk .competences{
+    grid-column: 2 / 13;
+}
+main.desk .competences .competence-1{
+    left: 350px;
+}
+main.desk .competences .competence-2{
+    right: 235px;
+}
+main.desk .competences .competence-3{
+    left: 115px;
+}
+main.desk .competences .competence-4{
+    right: 50px;
+}
+main.desk .competences .competence-5{
+    left: 150px;
+}
+main.desk .competences .competence-6{
+    right: 200px;
+}
+main.desk .competences .competence-7{
+    left: 585px;
+}
+main.desk .competences .competence-8{
+    left: 386px;
+}
+@media screen and (min-width: 550px){
+    .competences .competence-1{
+        left: 10%;
+    }
+    .competences .competence-2{
+        right: 9%;
+    }
+    .competences .competence-3{
+        left: 40%;
+    }
+    .competences .competence-4{
+        right: 20%;
+    }
+    .competences .competence-5{
+        left: 10%;
+    }
+    .competences .competence-6{
+        right: 10%;
+    }
+    .competences .competence-7{
+        left: 15%;
+    }
+    .competences .competence-8{
+        left: 45%;
+    }
+}

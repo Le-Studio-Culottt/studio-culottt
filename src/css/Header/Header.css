@@ -1,0 +1,5 @@
+/* MOBILE - Header */
+header{
+    position: fixed;
+    z-index: 999;
+}

@@ -1,0 +1,175 @@
+[
+    {
+        "id": 1,
+        "mot": "Typographie",
+        "url": "/savoir/lettres"
+    }, {
+        "id": 2,
+        "mot": "Édition",
+        "url": "/savoir/print-communication"
+    }, {
+        "id": 3,
+        "mot": "Étiquettes",
+        "url":"/savoir/habillage-bouteille"
+    }, {
+        "id": 4,
+        "mot": "Identité de marque",
+        "url":"/savoir/logo-identite-visuelle"
+    }, {
+        "id": 5,
+        "mot": "Pictogrammes",
+        "url":"/savoir/logo-identite-visuelle#anchor-perception"
+    }, {
+        "id": 6,
+        "mot": "Branding",
+        "url":"/savoir/logo-identite-visuelle"
+    }, {
+        "id": 7,
+        "mot": "Charte Graphique",
+        "url":"/savoir/logo-identite-visuelle#anchor-perception"
+    }, {
+        "id": 8,
+        "mot": "Livres",
+        "url":"/savoir/print-communication#anchor-human"
+    }, {
+        "id": 9,
+        "mot": "Logo",
+        "url":"/savoir/logo-identite-visuelle"
+    }, {
+        "id": 10,
+        "mot": "Couverture de livres",
+        "url":"/savoir/print-communication#anchor-human"
+    },{
+        "id": 11,
+        "mot": "Couverture de magazines",
+        "url":"/savoir/print-communication#anchor-human"
+    },{
+        "id": 12,
+        "mot": "Maquettage",
+        "url":"/savoir/lettres#anchor-maquettage"
+    },{
+        "id": 13,
+        "mot": "Brochures",
+        "url":"/savoir/print-communication#anchor-human"
+    },{
+        "id": 14,
+        "mot": "Flyers",
+        "url":"/savoir/lettres#anchor-maquettage"
+    },{
+        "id": 15,
+        "mot": "Photographie",
+        "url":"/savoir/photo"
+    },{
+        "id": 16,
+        "mot": "Packshot",
+        "url":"/savoir/photo"
+    },{
+        "id": 17,
+        "mot": "Mockup",
+        "url":"/savoir/photo"
+    },{
+        "id": 18,
+        "mot": "Parcours utilisateur",
+        "url":"/savoir/ux-ui"
+    },{
+        "id": 19,
+        "mot": "Dépliants",
+        "url":"/savoir/print-communication"
+    },{
+        "id": 20,
+        "mot": "Cartographie",
+        "url":"/savoir/cartographie-vignoble"
+    },{
+        "id": 21,
+        "mot": "Carte de vignoble",
+        "url":"/savoir/cartographie-vignoble"
+    },{
+        "id": 22,
+        "mot": "Présentation PDF",
+        "url":"/savoir/lettres#anchor-maquettage"
+    },{
+        "id": 23,
+        "mot": "Illustration",
+        "url":"/savoir/illustration"
+    },{
+        "id": 24,
+        "mot": "Site internet",
+        "url":"/savoir/site-internet"
+    },{
+        "id": 25,
+        "mot": "Site vitrine",
+        "url":"/savoir/site-internet#anchor-site"
+    },{
+        "id": 26,
+        "mot": "Site e-commerce",
+        "url":"/savoir/site-internet#anchor-site"
+    },{
+        "id": 27,
+        "mot": "React",
+        "url":"/savoir/site-internet#anchor-unique"
+    },{
+        "id": 28,
+        "mot": "JavaScript",
+        "url":"/savoir/site-internet"
+    },{
+        "id": 29,
+        "mot": "Base de données",
+        "url":"/savoir/site-internet"
+    },{
+        "id": 30,
+        "mot": "HTML/CSS",
+        "url":"/savoir/site-internet"
+    },{
+        "id": 31,
+        "mot": "Site dynamique",
+        "url": "/savoir/site-internet#anchor-site"
+    },{
+        "id": 32,
+        "mot": "Animation web/intéraction web",
+        "url":"/savoir/ux-ui"
+    },{
+        "id": 33,
+        "mot": "Mise au format",
+        "url":"/savoir/print-communication#anchor-format"
+    },{
+        "id": 34,
+        "mot": "Wireframe",
+        "url":"/savoir/ux-ui"
+    },{
+        "id": 35,
+        "mot": "Sitemap",
+        "url":"/savoir/ux-ui"
+    },{
+        "id": 36,
+        "mot": "Direction artistique",
+        "url":"/savoir/direction-artistique"
+    },{
+        "id": 37,
+        "mot": "Bières & Vins",
+        "url":"/savoir/biere-vin"
+    },{
+        "id": 38,
+        "mot": "Design éditorial",
+        "url":"/savoir/print-communication"
+    },{
+        "id": 39,
+        "mot": "Kakémono",
+        "url":"/savoir/print-communication"
+    },{
+        "id": 40,
+        "mot": "Réseaux sociaux",
+        "url":"/savoir/communaute"
+    },{
+        "id": 41,
+        "mot": "Création de contenu",
+        "url":"/savoir/communaute#anchor-creation-contenu"
+    },{
+        "id": 42,
+        "mot": "SEO Friendly",
+        "url":"/savoir/site-internet#anchor-engagement"
+    },{
+        "id": 43,
+        "mot": "Respect des bonnes pratiques web (opquast)",
+        "url":"/savoir/site-internet#anchor-engagement"
+    }
+]

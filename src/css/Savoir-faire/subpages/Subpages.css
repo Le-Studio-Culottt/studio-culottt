@@ -1,0 +1,21 @@
+/* MOBILE - Subpages */
+.subs > *{
+    grid-column: 1 / 13;
+}
+.subs ul{
+    margin-bottom: 2rem;
+}
+.subs ul li{
+    padding-bottom: 0;
+}
+.subs img{
+    width: 100%;
+    margin-bottom: .5rem;
+}
+.subs .logo-identite-lb{
+    background-color: var(--w);
+}
+/* DESK - Subpages */
+.subs.desk > *{
+    grid-column: 4 /11;
+}

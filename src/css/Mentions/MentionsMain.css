@@ -1,0 +1,14 @@
+/* MOBILE - Mentions Légales */
+main.mentions > * {
+    grid-column: 1 / 12;
+}
+main.mentions ul {
+    padding-left: 1rem;
+}
+main.mentions ul li{
+    list-style: disc;
+}
+/* DESK - Mentions Légales */
+main.mentions.desk > *{
+    grid-column: 2 / 13;
+}

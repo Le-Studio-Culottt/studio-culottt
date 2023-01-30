@@ -1,0 +1,103 @@
+/* MOBILE - Footer */
+footer{
+    background-color: var(--indigo);
+    margin: calc(0% - 15px);
+    margin-top: 0;
+    padding: 40px;
+    padding-bottom: 75px;
+}
+footer .footer-logo{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+footer span.footer-about{
+    color: rgba(255, 255, 255, 0.5);
+}
+.footer-redirection a, .footer-call a, .footer-message a, .footer-contact{
+    font-weight: 700;
+}
+.footer-call a, .footer-message a, footer .footer-lw a{
+    text-decoration: underline;
+}
+.footer-lw{
+    font-size: 17px;
+}
+footer .footer-citation{
+    font-style: italic;
+}
+footer .footer-message, footer .footer-call{
+    position: relative;
+}
+footer .footer-message .footer-picto, footer .footer-call .footer-picto{
+    position: absolute;
+}
+footer .footer-message .footer-picto.send{
+    top: -15px;
+}
+footer .footer-call .footer-picto.call{
+    top: -20px;
+}
+footer .footer-contact span, footer .footer-message span.footer-lw{
+    display: block;
+}
+footer .footer-picto img{
+    width: 50px;
+    height: 50px;
+}
+footer .footer-dott{
+    padding-bottom: 1rem;
+    font-size: 1rem;
+    color: var(--w);
+}
+footer .footer-credits{
+    margin-top: 2rem;
+    text-align: center;
+}
+footer .footer-credits span{
+    display: block;
+    margin-top: .5rem;
+}
+/* DESK - Footer */
+footer.desk{
+    grid-template-columns: 12% 14% 6.5% 8% 2% 11% 0.7% 11% 2% 8% 6.5% 14% 4.3%;         
+    display: grid;
+    margin: 0;
+    padding: 50px 0 50px;
+    position: relative;
+}
+footer.desk .footer-logo{
+    grid-column: 4 / 7;
+    margin: 0 0 50px;
+}
+footer.desk .footer-description{
+    grid-column: 4 / 7;
+    margin-bottom: 50px;
+    padding-bottom: 0;
+}
+footer.desk .footer-redirection{
+    grid-column: 4 / 7;
+}
+footer.desk .footer-call{
+    grid-column: 8 / 14;
+    grid-row: 3;
+}
+footer.desk .footer-message{
+    grid-column: 8 / 14;
+    grid-row: 4;
+}
+footer.desk .footer-contact{
+    grid-column: 8 / 14;
+    grid-row: 6;
+}
+footer.desk .footer-store{
+    grid-column: 8 / 14;
+    grid-row: 7;
+}
+footer.desk .footer-credits{
+    grid-column: 4 / 7;
+    text-align: inherit;
+}
+footer.desk .footer-dott{
+    display: none;
+}

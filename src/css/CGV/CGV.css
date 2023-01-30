@@ -1,0 +1,14 @@
+/* MOBILE - CGV */
+main.cgv > * {
+    grid-column: 1 / 12;
+}
+main.cgv ul {
+    padding-left: 1rem;
+}
+main.cgv ul li{
+    list-style: disc;
+}
+/* DESK - CGV */
+main.cgv.desk > *{
+    grid-column: 2 / 13;
+}

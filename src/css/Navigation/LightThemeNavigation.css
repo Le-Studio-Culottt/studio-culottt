@@ -1,0 +1,6 @@
+/* CSS LIGHT THEME HERE */
+.white-content .nav.desk .option-desk .light img{
+    border: 2px solid var(--indigo);
+    padding: 5px;
+    border-radius: 30px;
+}

@@ -1,0 +1,114 @@
+/* MOBILE - Creation */
+.creation{
+    position: relative;
+}
+.creation h1{
+    grid-column: 1 / 12;
+}
+/* SIDEBAR */
+.sidebar{
+    position: fixed;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+.sidebar div{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 35px;
+    height: 20px;
+    margin-bottom: 1.5rem;
+    color: rgba(255, 255, 255, 0.5);;
+}
+.sidebar div::after{
+    content: "";
+    width: 5px;
+    height: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: block;
+    margin-left: 1rem;
+}
+/* SIDEBAR - ACTIVE */
+.sidebar div.active::after{
+    background-color: var(--w);
+}
+/* CARDS */
+.creation .cards{
+    grid-column: 4 / 12;
+}
+.creation article{
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    padding: 1rem;
+    scroll-margin-top: 150px;
+    scroll-snap-margin-top: 150px;
+    transition: transform .5s;
+}
+.creation article.intro, .creation article.convaincu{
+    box-shadow: inherit;
+}
+.creation article.intro p, .creation article.convaincu p{
+    display: block;
+}
+.creation article p{
+    display: none;
+}
+.vendanges{
+    background-color: #290080;
+    transform: rotate(2deg);
+}
+.foulage{
+    background-color: #5200FF;
+    transform: rotate(-2deg);
+}
+.fermentation{
+    background-color: #4101C8;
+    transform: rotate(3deg);
+}
+.clarification{
+    background-color: #5D13F9;
+    transform: rotate(-2deg);
+}
+.elevage{
+    background-color: #33009D;
+    transform: rotate(1deg);
+}
+.mise{
+    background-color: #5200FF;
+    transform: rotate(-5deg);
+}
+.convaincu{
+    margin-top: 5rem;
+    text-align: center;
+}
+.convaincu .convaincu-talk{
+    font-weight: bold;
+}
+.convaincu .convaincu-yes{
+    text-decoration: underline;
+}
+.convaincu .convaincu-call{
+    font-style: italic;
+}
+/* CARD - ACTIVE */
+.creation article.active{
+    transform: rotate(0);
+    transition: transform .5s;
+}
+.creation article.active p{
+    display: block;
+}
+/* DESK - Creation */
+main.creation.desk h1{
+    grid-column: 4 / 11;
+}
+main.creation.desk .sidebar{
+    left: 17%;
+    transform: translate(0%, -50%);
+}
+main.creation.desk .cards{
+    grid-column: 4 / 11;
+}
+main.creation.desk .intro{
+    padding: 0;
+    margin-bottom: 2rem;
+}

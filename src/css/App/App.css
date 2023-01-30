@@ -1,0 +1,142 @@
+*, ::before, ::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    text-decoration: none;
+}
+@font-face{font-family:'EuclidFlex Bold';src:url('../../fonts/EuclidFlex-Bold.otf') format('otf'),url('../../fonts/EuclidFlex-Bold.ttf') format('ttf'),url('../../fonts/EuclidFlex-Bold.woff') format('woff'),url('../../fonts/EuclidFlex-Bold.woff2') format('woff2');font-style:normal;font-display:swap}
+@font-face{font-family:'EuclidFlex Medium';src:url('../../fonts/EuclidFlex-Medium.otf') format('otf'),url('../../fonts/EuclidFlex-Medium.ttf') format('ttf'),url('../../fonts/EuclidFlex-Medium.woff') format('woff'),url('../../fonts/EuclidFlex-Medium.woff2') format('woff2');font-style:normal;font-display:swap}
+@font-face{font-family:'EuclidFlex Regular';src:url('../../fonts/EuclidFlex-Regular.otf') format('otf'),url('../../fonts/EuclidFlex-Regular.ttf') format('ttf'),url('../../fonts/EuclidFlex-Regular.woff') format('woff'),url('../../fonts/EuclidFlex-Regular.woff2') format('woff2');font-style:normal;font-display:swap}
+@font-face{font-family:'EuclidFlex Thin';src:url('../../fonts/EuclidFlex-ThinItalic.otf') format('otf'),url('../../fonts/EuclidFlex-ThinItalic.ttf') format('ttf'),url('../../fonts/EuclidFlex-ThinItalic.woff') format('woff'),url('../../fonts/EuclidFlex-ThinItalic.woff2') format('woff2');font-style:italic;font-display:swap}
+:root{
+    --w: white;
+    --navy: #000022;
+    --indigo: #5D13F9;
+    --euclidflex-medium: 'EuclidFlex Medium', sans-serif;
+    --euclidflex-bold: 'EuclidFlex Bold', sans-serif;
+    --euclidflex-regular: 'EuclidFlex Regular', sans-serif;
+    --euclidflex-thinitalic: 'EuclidFlex Thin', sans-serif;
+    --radius: 4.55% / 3.5%;
+    --space: 2px;
+    --h: 21;
+    --s: 70%;
+    --angle: 133deg;
+    --imgsize: 500px;
+    --mx: 50%;
+    --my: 50%;
+    --s: 1;
+    --o: 1;
+    --pos: 50% 50%;
+    --posx: 50%;
+    --posy: 50%;
+    --hyp: 0;
+}
+html{
+    scroll-behavior: smooth;
+    cursor: url('../../assets/Images/img-cursor-studio.png'), auto;
+}
+a, button{
+    cursor: url('../../assets/Images/img-cursor-pointer.png'), pointer;
+}
+body{
+    background: linear-gradient(156.2deg, #000022 18.39%, #5D13F9 84.11%);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    position: relative;
+    margin: 15px;
+}
+main{
+    padding-top: 55px;
+    filter: inherit;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 22px 24px 12px 10px 1fr 10px 1fr 10px 12px 24px 22px;
+}
+h1, h2, h3, h4, h5, h6, p.lead, p, blockquote, ul, li, a{
+    color: var(--w);
+}
+h1{
+    font: normal 3rem/3.125rem var(--euclidflex-medium);
+    padding-bottom: 2.5rem;
+}
+h2{
+    font: normal 2.375rem/2.5rem var(--euclidflex-medium);
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+}
+h3{
+    font: normal 2rem/2.125rem var(--euclidflex-medium);
+    padding: 1rem 0;
+}
+h4{
+    font: normal 1.5rem/1.675rem var(--euclidflex-medium);
+    padding: .8rem 0;
+}
+h5{
+    font: normal 1.625rem/1.75rem var(--euclidflex-medium);
+}
+h6{
+    font: normal 1.5rem/1.625rem var(--euclidflex-medium);
+}
+p.lead{
+    font: bold 1.125rem/1.375rem var(--euclidflex-bold);
+}
+p, li, a{
+    font: normal 1rem/1.375rem var(--euclidflex-regular);
+}
+p, li{
+    padding-bottom: 1rem;
+}
+blockquote{
+    font: italic 2.125rem/1.75rem var(--euclidflex-thinitalic);
+}
+*::selection{
+    background-color: var(--indigo);
+}
+/* BTN */
+button{
+    display: block;
+    font: normal 29px/37px var(--euclidflex-regular);
+    padding: 5px;
+    color: var(--w);
+    background-color: var(--indigo);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin: 1rem 0;
+}
+button:hover{
+    background: linear-gradient(156.2deg, var(--navy) 18.39%, var(--indigo) 84.11%);
+}
+button:active{
+    background: var(--navy);
+}
+@media (min-width: 1201px){
+    h1{
+        font: normal 5.625rem/5.313rem var(--euclidflex-medium);
+    }
+    h2{
+        font: normal 3.75rem/3.75rem var(--euclidflex-medium);
+    }
+    h3{
+        font: normal 2.188rem/2.5rem var(--euclidflex-medium)
+    }
+    h4{
+        font: normal 1.875rem/2.188rem var(--euclidflex-medium);
+    }
+    h5{
+        font: normal 2.875rem/2.5rem var(--euclidflex-medium);
+    }
+    h6{
+        font: normal 2.625rem/2.375rem var(--euclidflex-medium);
+    }
+    blockquote{
+        font: italic 3.625rem/3.75rem var(--euclidflex-thinitalic);
+    }
+    body{
+        margin: 0;
+    }
+    main{
+        grid-template-columns: 12% 14% 6.5% 8% 2% 11% 0.7% 11% 2% 8% 6.5% 14% 4.3%;
+    }
+}

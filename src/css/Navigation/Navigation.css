@@ -1,0 +1,99 @@
+/* MOBILE - Navigation */
+.nav.mobile{
+    background-color: #5D13F9;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 25%);
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    bottom: 0;
+    margin: calc(0px - 15px);
+    padding-bottom: 15px;
+    z-index: 999;
+}
+.nav.mobile img, .nav.mobile a{
+    width: 58px;
+    height: 58px;
+}
+/* DESK - Navigation */
+.nav.desk{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    height: calc(100vh - 120px);
+    left: 0;
+    top: 0;
+    flex-direction: column;
+    z-index: 999;
+}
+.nav.desk .nav-menu-modes{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+.nav.desk .nav-menu-modes .nav-menu{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 1rem;
+    cursor: url('../../assets/Images/img-cursor-pointer.png'), pointer;
+}
+.nav.desk a{
+    transform: rotate(270deg);
+}
+.nav.desk .option-desk{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    cursor: pointer;
+    transform: translateX(30px);
+    cursor: url('../../assets/Images/img-cursor-pointer.png'), pointer;
+}
+.nav.desk .option-desk div{
+    display: flex;
+    margin-bottom: 1rem;
+    transition: border .5s ease-out;
+    border: 2px solid transparent;
+    padding: 5px;
+    border-radius: 30px;
+    width: 85px;
+    justify-content: space-between;
+}
+.nav.desk .option-desk div.noCSS{
+    width: 105px;
+}
+.nav.desk .option-desk div p{
+    padding-bottom: 0;
+    margin-right: .5rem;
+    align-self: center;
+    transition: opacity .5s ease-out;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+}
+.nav.desk .option-desk div:hover {
+    border: 2px solid var(--indigo);
+    padding: 5px;
+    border-radius: 30px;
+}
+.nav.desk .option-desk div:hover p{
+    opacity: 1;
+    height: auto;
+}
+.nav.desk .option-desk div:hover img{
+    border: none!important;
+    padding: 0!important;
+}
+.nav.desk .option-desk img{
+    border: 2px solid transparent;
+    padding: 5px;
+    border-radius: 30px;
+    object-fit: contain;
+}
+.dark-content .nav.desk .option-desk .dark img{
+    border: 2px solid var(--indigo);
+    padding: 5px;
+    border-radius: 30px;
+}

@@ -1,0 +1,11 @@
+/* MOBILE - Rewards */
+.rewards{
+    grid-column: 1 / 12;
+}
+.rewards hr{
+    border-bottom: 1px solid var(--w);
+}
+/* DESK - Rewards */
+main.studio.desk .rewards{
+    grid-column: 4 / 13;
+}

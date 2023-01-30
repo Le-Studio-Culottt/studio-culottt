@@ -1,0 +1,7 @@
+/* LIGHT THEME FOOTER */
+body.white-content footer{
+    background-color: var(--w);
+}
+body.white-content footer p, body.white-content footer a{
+    color: var(--indigo);
+}

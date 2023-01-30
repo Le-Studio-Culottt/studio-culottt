@@ -1,0 +1,73 @@
+/* MOBILE - Studio */
+.studio h1, .studio h2, .studio .intro{
+    grid-column: 1 / 12;
+}
+/* DESK - Studio */
+main.studio.desk h1 {
+    grid-column: 4 / 13;
+}
+main.studio.desk h2 {
+    grid-column: 4 / 11;
+}
+main.studio.desk .intro{
+    grid-column: 4 / 9;
+    margin-bottom: 4rem;
+}
+/* ANIMATION - Shape Blur */
+:root {
+    --darkShape: #000022;
+    --firstBlueShape: #0777FD;
+    --secondBlueShape: #02FEFF;
+    --whiteShape: #FFFFFF;
+	--violetShape: #5D13F9;
+}
+.shape {
+    -webkit-animation: morph 8s ease-in-out;
+    -webkit-border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    z-index: -1;
+    animation: morph 8s ease-in-out alternate infinite;
+    transition: all 1s ease-in-out;
+    width: 100%;
+    height: 250px;
+    position: absolute;
+    background: linear-gradient(45deg, var(--darkShape) 0%, var(--firstBlueShape) 100%);
+    top: 160px;
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    box-shadow: -100px 40px 5px var(--violetShape), inset 0px -35px 30px var(--whiteShape), inset 5px 80px 80px var(--secondBlueShape);
+}
+.shape.second{
+    -webkit-animation: morph2 4s ease-in-out;
+    -webkit-border-radius: 40% 50% 40% 90% / 90% 90% 90% 90%;
+    background: linear-gradient(250deg, var(--secondBlueShape) 70%, var(--firstBlueShape) 30%);
+    top: 950px;
+    height: 300px;
+    border-radius: 40% 50% 40% 90% / 90% 90% 90% 90%;
+    box-shadow: 50px 200px 100px var(--firstBlueShape), -140px 0px 5px var(--violetShape), inset 60px -110px 30px var(--whiteShape), inset 110px 60px 80px var(--darkShape);
+    animation: morph2 4s ease-in-out alternate infinite;
+}
+.shape.third{
+    -webkit-animation: morph3 2s ease-in-out;
+    background: linear-gradient(150deg, var(--darkShape) 70%, var(--whiteShape) 30%);
+    top: 3750px;
+    height: 500px;
+    animation: morph3 2s ease-in-out alternate infinite;
+    box-shadow: -50px 100px 20px var(--whiteShape), 130px -50px 5px var(--violetShape), inset 120px -175px 30px var(--violetShape);
+}
+@keyframes morph {0%{border-radius:  60% 40% 30% 70% / 60% 30% 70% 40%;filter: blur(30px);}50%{border-radius:  30% 60% 70% 40% / 50% 60% 30% 60%;filter: blur(30px);}100% {border-radius:  60% 40% 30% 70% / 60% 30% 70% 40%;filter: blur(30px);}}
+@-webkit-keyframes morph {0%{border-radius:  60% 40% 30% 70% / 60% 30% 70% 40%;filter: blur(30px);}50%{border-radius:  30% 60% 70% 40% / 50% 60% 30% 60%;filter: blur(30px);}100% {border-radius:  60% 40% 30% 70% / 60% 30% 70% 40%;filter: blur(30px);}}
+@keyframes morph2 {0%{border-radius:  60% 40% 30% 70% / 60% 30% 70% 40%;filter: blur(50px);}50%{border-radius:  30% 60% 70% 40% / 50% 60% 30% 60%;filter: blur(50px);}100% {border-radius:  60% 40% 30% 70% / 60% 30% 70% 40%;filter: blur(50px);}}
+@-webkit-keyframes morph2 {0%{border-radius:  60% 40% 30% 70% / 60% 30% 70% 40%;filter: blur(50px);}50%{border-radius:  30% 60% 70% 40% / 50% 60% 30% 60%;filter: blur(50px);}100% {border-radius:  60% 40% 30% 70% / 60% 30% 70% 40%;filter: blur(50px);}}
+@keyframes morph3 {0%{border-radius:  60% 40% 30% 70% / 60% 30% 70% 40%;filter: blur(80px);}50%{border-radius:  30% 60% 70% 40% / 50% 60% 30% 60%;filter: blur(80px);}100% {border-radius:  60% 40% 30% 70% / 60% 30% 70% 40%;filter: blur(80px);}}
+@-webkit-keyframes morph3 {0%{border-radius:  60% 40% 30% 70% / 60% 30% 70% 40%;filter: blur(80px);}50%{border-radius:  30% 60% 70% 40% / 50% 60% 30% 60%;filter: blur(80px);}100% {border-radius:  60% 40% 30% 70% / 60% 30% 70% 40%;filter: blur(80px);}}
+
+main.studio.desk .shape{
+    width: 400px;
+}
+main.studio.desk .shape.second{
+    right: 100px;
+    top: 1300px;
+}
+main.studio.desk .shape.third{
+    top: 3250px;
+    left: 20%;
+}

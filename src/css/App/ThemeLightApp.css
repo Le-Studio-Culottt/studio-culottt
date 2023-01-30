@@ -1,0 +1,19 @@
+/* LIGHT THEME APP */
+body.white-content{
+    background: linear-gradient(137.73deg, rgba(255, 255, 255, 0) 0%, #5D13F9 95.67%);
+}
+body.white-content h1, body.white-content h2, body.white-content h3, body.white-content h4, body.white-content h5, body.white-content h6, body.white-content p.lead, body.white-content p, body.white-content blockquote, body.white-content ul, body.white-content li, body.white-content a{
+    color: var(--navy);
+}
+body.white-content button{
+    color: var(--indigo);
+    background-color: var(--w);
+}
+body.white-content button:hover{
+    background: linear-gradient(137.73deg, rgba(255, 255, 255, 0) 0%, var(--indigo) 95.67%);
+    color: var(--navy);
+}
+body.white-content button:active{
+    background: var(--indigo);
+    color: var(--w);
+}

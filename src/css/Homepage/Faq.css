@@ -1,0 +1,85 @@
+/* MOBILE - Faq */
+.home-faq{
+    grid-column: 1 / 12;
+    scroll-margin-top: 50px;
+    scroll-snap-margin-top: 50px;
+}
+/* MOBILE - Questions */
+.home-faq .questions ul .question{
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+    display: none;
+    transition: opacity 0.4s;
+}
+.home-faq .questions ul .question:nth-child(1), .questions ul .question:nth-child(2), .questions ul .question:nth-child(3), .questions ul .question:nth-child(4){
+    display: block;
+}
+.home-faq .questions ul .question article.question-section-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: url('../../assets/Images/img-cursor-pointer.png'), pointer;
+}
+.home-faq .questions ul .question article.question-section-title h3{
+    width: 80%;
+}
+.home-faq .questions ul .question article.question-section-title span, .home-faq .questions ul .question article.question-section-title img{
+    height: 40px;
+    width: 40px;
+}
+.home-faq .questions ul .question article.question-section-title span{
+    background-color: var(--indigo);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-faq .questions ul .question article.question-section-title img{
+    rotate: 45deg;
+    transition: 1s;
+}
+.home-faq .questions ul .question article.question-section-content{
+    display: none;
+}
+.home-faq .questions ul .question article.question-section-content li:before{
+    content: "- "
+}
+.home-faq .questions ul .question .question-section-content p span{
+    display: inline-block;
+    padding-left: 2rem;
+    margin: .5rem 0;
+}
+.home-faq .faq-more{
+    text-align: center;
+    cursor: url('../../assets/Images/img-cursor-pointer.png'), pointer;
+}
+.home-faq .faq-more span{
+    margin-top: .5rem;
+    display: block;
+}
+.home-faq .faq-back-start{
+    display: none;
+    text-align: center;
+}
+.home-faq .faq-back-start span{
+    transform: rotate(180deg);
+    display: block;
+    margin-bottom: .5rem;
+}
+/* MOBILE - Questions ACTIVE */
+.home-faq .questions ul .question.active article.question-section-content{
+    display: block;
+    background-color: var(--indigo);
+    padding: 10px;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+.home-faq .questions ul .question.active article.question-section-title img{
+    rotate: inherit;
+    transition: .5s;
+}
+@-webkit-keyframes fadeIn {from { opacity: 0; } to { opacity: 1; }}
+@keyframes fadeIn {from { opacity: 0; } to { opacity: 1; }}
+/* DESK - Faq */
+main.desk .home-faq{
+    grid-column: 4 / 13;
+}

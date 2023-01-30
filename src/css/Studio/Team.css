@@ -1,0 +1,32 @@
+/* MOBILE - Team */
+.team{
+    grid-column: 1 / 12;
+    overflow: hidden;
+}
+.team img{
+    width: 100%;
+}
+/* DESK - Team */
+main.studio.desk .team{
+    grid-template-columns: 171px 14% 6% 8% 30px 11% 10px 11% 30px 8% 6% 14% 70px;
+    display: grid;
+    grid-column: 1 / 14;
+    margin-bottom: 4rem;
+}
+main.studio.desk .team .team-culottes{
+    grid-row: 1;
+}
+main.studio.desk .team .team-claire{
+    grid-column: 4 / 7;
+    grid-row: 2;
+}
+main.studio.desk .team .team-tanguy{
+    grid-column: 10 / 13;
+    grid-row: 3;
+    margin-top: -25rem;
+}
+main.studio.desk .team .team-emma{
+    grid-column: 5 / 9;
+    grid-row: 4;
+    margin-top: -5rem;
+}

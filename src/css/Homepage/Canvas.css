@@ -1,0 +1,39 @@
+/* MOBILE - Canvas */
+.canvas, .canvas #scratch{
+    width: 350px;
+    height: 350px;
+}
+.canvas {
+    position: relative;
+    margin: 0 auto 2rem;
+    background-image: url("../../assets/Images/img-scratched-homepage.webp");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.canvas .canvas-logo-scratch{
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: scratchHere 2.5s infinite linear;
+}
+.canvas #scratch {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: grabbing;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+@keyframes scratchHere{0%,100%,50%{left:50%;top:50%}25%{left:45%;top:55%}75%{left:55%;top:45%}}
+/* DESK - Canvas */
+main.desk .canvas, main.desk .canvas #scratch{
+    width: 500px;
+    height: 500px;
+    margin: 0;
+}

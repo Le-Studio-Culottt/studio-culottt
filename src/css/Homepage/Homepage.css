@@ -1,0 +1,30 @@
+/* MOBILE - Homepage */
+.home-title{
+    background: linear-gradient(103.63deg, #E0B0FF 12.54%, #EFFFD2 21.81%, #A9FFFB 31.42%, #FFF9DC 41.38%, #C7CEFF 51.68%, #E3BBFF 61.29%, #FFE6E1 70.21%, #83C7FF 78.45%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+    animation: hueRotate 1.5s linear infinite; 
+}
+.home-description, .home-canvas{
+    grid-column: 1 / 12;
+}
+@keyframes hueRotate{0%{filter: hue-rotate(0deg)}100%{filter: hue-rotate(360deg)}}
+/* DESK - Homepage */
+main.desk .home-canvas{
+    grid-column: 2 / 13;
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+main.desk .home-canvas .home-title{
+    width: 65%;
+    margin-left: -5rem;
+    position: relative;
+    z-index: 1;
+    padding-bottom: 1rem;
+}
+main.desk .home-description{
+    grid-column: 4 / 11;
+    margin-bottom: 5rem;
+}

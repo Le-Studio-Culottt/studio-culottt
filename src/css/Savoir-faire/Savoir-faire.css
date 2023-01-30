@@ -1,0 +1,57 @@
+/* MOBILE - Savoir-faire Random Keyword */
+.savoir-faire{
+    margin: var(--margin-b-1);
+    grid-column: 1 / 12;
+}
+.searchbar{
+    display: flex;
+    background-color: rgba(217, 217, 217, 0.2);
+    align-items: center;
+    border-radius: 30px;
+    padding: 0 .5rem;
+    margin-bottom: 1rem;
+}
+.searchbar img{
+    margin-right: 1rem;
+}
+.searchbar input{
+    background-color: transparent;
+    height: 40px;
+    width: 100%;
+    color: var(--w);
+}
+.searchbar input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    font-family: var(--euclidflex-regular);
+}
+.savoir-listing{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.savoir-img-bg{
+    width: 100%;
+    height: 100%;
+}
+.savoir-listing .savoir-listing-random{
+    position: absolute;
+    text-shadow: 3px 3px 3px var(--navy), 0 0 8px var(--navy), 0px 1px 8px var(--indigo), 0 0 4px white;       
+}
+/* DESK - Savoir-faire Random Keyword */
+main.desk .savoir-faire{
+    grid-column: 2 / 13;
+    margin-bottom: 4rem;
+}
+main.desk .savoir-faire .searchbar{
+    width: 30%;
+}
+main.desk .savoir-img-bg.desk{
+    height: auto;
+}
+/* MEDIA QUERY RANDOM PLACEMENT */
+@media screen and (max-width: 375px){
+    .savoir-img-bg{
+        margin-top: -60px;
+    }
+}

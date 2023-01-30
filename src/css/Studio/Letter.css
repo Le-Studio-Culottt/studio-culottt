@@ -1,0 +1,118 @@
+/* MOBILE - Letter */
+.letter{
+    margin-bottom: 3rem;
+    position: relative;
+    grid-column: 1 / 12;
+    cursor: url('../../assets/Images/img-cursor-pointer.png'), pointer;
+}
+.letter .thisLetter.close{
+    background-color: white;
+    padding: 2rem;
+    width: 75%;
+    margin: 0 auto;
+    height: 375px;
+    overflow: hidden;
+    transform: rotate(-4deg);
+    box-shadow: 10px 10px 70px #4101c8;
+}
+.letter .thisLetter.close > * {
+    opacity: 0.2;
+}
+.letter .thisLetter.open{
+    background-color: white;
+    padding: 2rem;
+    width: 90%;
+    margin: 0 auto;
+    position: fixed;
+    height: 80vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    overflow-y: scroll;
+    filter: inherit;
+}
+.letter .thisLetter.open li{
+    list-style: disc;
+    margin-left: 15px;
+}
+.letter .thisLetter.open .letter-side{
+    list-style: none;
+    margin: 1rem 0 1rem 30px;
+}
+.letter .thisLetter.open .letter-square{
+    list-style: square;
+    margin-left: 70px;
+}
+.letter .thisLetter.open .letter-italic{
+    font-style: italic;
+}
+.letter article p, .letter article ul li, .letter article h3{
+    color:var(--indigo)
+}
+.letter .letter-close{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    padding: 5px;
+}
+.letter .letter-clic{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: 1px solid var(--indigo);
+    border-radius: 50%;
+    bottom: 40px;
+    right: 90px;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: zoom 2.5s ease infinite;
+}
+.letter .letter-clic span{
+    width: 10px;
+    height: 10px;
+    background-color: var(--indigo);
+    display: block;
+    border-radius: 50%;
+}
+.letter .letter-clic p{
+    position: absolute;
+    bottom: -15px;
+    right: -35px;
+    color: var(--indigo);
+    font-weight: bold;
+    font-size: 18px;
+}
+@keyframes zoom {
+    0% {
+      transform: scale(1, 1);
+    }
+    50% {
+      transform: scale(1.3, 1.3);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+}
+/* DESK - Letter */
+main.studio.desk .letter{
+    grid-column: 1 / 14;
+    display: grid;
+    grid-template-columns: 12% 14% 6.5% 8% 2% 11% 0.7% 11% 2% 8% 6.5% 14% 4.3%;
+}
+main.studio.desk .letter h2{
+    grid-column: 2 / 11;
+}
+main.studio.desk .letter .thisLetter{
+    grid-column: 4 / 11;
+    height: 500px;
+    width: 100%;
+}
+main.studio.desk .letter .thisLetter.open{
+    width: 75%;
+}
+main.studio.desk .letter .letter-clic{
+    right: 35%;
+}

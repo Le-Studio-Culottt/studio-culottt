@@ -1,0 +1,12 @@
+/* MOBILE - Savoir-faire */
+.savoir h1, .savoir h2 {
+     grid-column: 1 / 12;
+}
+/* DESK - Savoir-faire */
+main.savoir.desk h1 {
+     grid-column: 2 / 11;
+     margin-bottom: 2rem;
+}
+main.savoir.desk h2{
+     grid-column: 2 / 9;
+}

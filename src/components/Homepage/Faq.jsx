@@ -69,7 +69,7 @@ export default function ListFAQ() {
                     </li>
                     <li className={objQuestFAQ.classLi}>
                         <article className={objQuestFAQ.classSectionTitle}>
-                            <h3 className={objQuestFAQ.classTitle}>Est-ce qu’un site Internet permet d’augmenter sa popularité/visibilité ?</h3>
+                            <h3 className={objQuestFAQ.classTitle}>Est-ce qu’un site Internet permet d’augmenter la popularité/visibilité d'un vigneron ?</h3>
                             <span><img src={croixToggle} alt={objQuestFAQ.alt} /></span>
                         </article>
                         <article className={objQuestFAQ.classSectionContent}>
@@ -91,7 +91,7 @@ export default function ListFAQ() {
                             <span><img src={croixToggle} alt={objQuestFAQ.alt} /></span>
                         </article>
                         <article className={objQuestFAQ.classSectionContent}>                        
-                            <p>Doit-on vraiment répondre à cette question ?</p> 
+                            <p>Doit-on vraiment répondre à cette question ? Ça dépends si tu as de l'audace ;)</p> 
                             <p>Fais nous un coucou !</p>
                         </article>
                     </li>
@@ -133,7 +133,7 @@ export default function ListFAQ() {
                     </li>
                     <li className={objQuestFAQ.classLi}>
                         <article className={objQuestFAQ.classSectionTitle}>
-                            <h3 className={objQuestFAQ.classTitle}>Est-ce que nous nous déplaçons ?</h3>
+                            <h3 className={objQuestFAQ.classTitle}>Est-ce que nous nous déplaçons chez les vignerons ?</h3>
                             <span><img src={croixToggle} alt={objQuestFAQ.alt} /></span>
                         </article>
                         <article className={objQuestFAQ.classSectionContent}>                        
@@ -321,7 +321,7 @@ export default function ListFAQ() {
                             <span><img src={croixToggle} alt={objQuestFAQ.alt} /></span>
                         </article>
                         <article className={objQuestFAQ.classSectionContent}>
-                            <p>C’est un ensemble d’éléments graphiques et/ou textuelles, qui permet d’identifier visuellement une marque, une entreprise, une association, un service, un événement,… Il incarne une image, et des valeurs. Il permet de séduire, capter l’attention, de fédérer et ainsi valoriser l’image de ta marque.</p> 
+                            <p>C’est un ensemble d’éléments graphiques et/ou textuelles, qui permet d’identifier visuellement une marque, une entreprise, une association, un service, un événement, … Il incarne une image, et des valeurs. Il permet de séduire, capter l’attention, de fédérer et ainsi valoriser l’image de ta marque.</p> 
                         </article>
                     </li>
                     <li className={objQuestFAQ.classLi}>

@@ -10,7 +10,9 @@ export default function CM() {
                 <p><a href="https://www.chateau-morillon.com/">Site ⇲</a></p>
             </section>
             <section>
-                <p>Pour le Château Morillon deux partie ont été réalisés, d’abord le design des étiquettes de leurs nouvelles cuvées, avec un travail illustratif inspiré des estampes et assez minimalistes. Le Château Morillon est pionniers du bio dans sa région et leurs vins sont fruité et léger pour des Bordeaux. Le Morillon étant l’oiseau symbolique du domaine et celui-ci travaillant avec la nature avec bosquet et végétation, les étiquettes reprennent un oiseau de la région qui correspond au cépage de manière poétique. Le site réalisé dans les teintes du blayais et de la biodiversité préservée se veut léger et doux.</p>
+                <p>Pour le Château Morillon deux partie ont été réalisés, d’abord le design des étiquettes de leurs nouvelles cuvées, avec un travail illustratif inspiré des estampes et assez minimalistes. </p>
+                <p>Le Château Morillon est pionniers du bio dans sa région et leurs vins sont fruités et légers (pour des Bordeaux). Le Morillon étant l’oiseau symbolique du domaine et celui-ci travaillant avec la nature avec bosquet et végétation, les étiquettes reprennent un oiseau de la région qui correspond au cépage de manière poétique.</p>
+                <p>Le site réalisé dans les teintes du blayais et de la biodiversité préservée se veut léger et doux afin de représenter leur esprit.</p>
             </section>
         </article>
         </>

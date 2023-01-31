@@ -49,7 +49,7 @@ export default function LogoIdentiteVisuelle() {
             <main className={windowSize.innerWidth <= 1201 ? "subs" : "subs desk"}>
                 <h1>Logo et identité visuelle</h1>
                 <h2>Reconnaître instinctivement</h2>
-                <p>Ton logo, c’est la pierre angulaire de ta communication. Il peut avoir toutes les formes du monde, et c’est pour ça, qu’il en dit beaucoup sur toi. Tu peut choisir un logo très détaillé pour une personnalité exubérante. Un logo minimaliste pour un produit qui sera concis, pur. Un logo vintage pour faire appel à une pratique d’antan. Un logo moderniste pour une entreprise de logistique.
+                <p>Ton logo, c’est la pierre angulaire de ta communication. Il peut avoir toutes les formes du monde, et c’est pour ça, qu’il en dit beaucoup sur toi. Tu peux choisir un logo très détaillé pour une personnalité exubérante. Un logo minimaliste pour un produit qui sera concis, pur. Un logo vintage pour faire appel à une pratique d’antan. Un logo moderniste pour une entreprise de logistique.
                 <br />En résumé, ton identité est unique car elle te représente toi et ton business. Il confirme visuellement tes valeurs. C’est le travail du directeur artistique, qui avec ses connaissances et son expertise, va faire appel à un certain choix de l’image, à l’utilisation de certaines couleurs. Qui aux yeux de tous, parlent pour dire la même chose.</p>
                 
                 <img src={TerravineLogo} alt="Logo de Terra Vine Agency" />

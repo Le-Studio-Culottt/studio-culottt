@@ -46,12 +46,12 @@ export default function DirectionArtistique() {
                 <h1>UX/UI</h1>
                 <h2>Comment concevoir un site internet ?</h2>
                 <p>Pour concevoir un site internet, on part généralement de l’objectif. Vendre des produits ou assoir une notoriété ne donnera pas le même résultat.</p>
-                <p>Ensuite, il faut construire le plan d’action, et tout comme un architecte, il nous faudra un plan de site —ou sitemap. Ce plan de site nous sert de découpage des sections du site et du lien que les pages ont entres elles.</p>
+                <p>Ensuite, il faut construire le plan d’action, et tout comme un architecte, il nous faudra un plan de site —ou sitemap. Ce plan de site nous sert de découpage des sections du site et du lien que les pages ont entre elles.</p>
                 <p>Ce plan est très important car c’est de là qu’on va se mettre d’accord sur l’ordre des sections et donc du plan de rédaction du site. Grâce à lui, le texte pourra découler de lui-même.</p>
                 <p>Ensuite vient l’étape des wireframes où l’on va mettre en page le texte et les boutons. Parfois l’on peut revoir les parcours utilisateurs afin de le simplifier et rendre service aux internautes.</p>
                 <p>Lorsque tout ça est validé, on va pouvoir passer en phase de création et maquettage des maquettes. C’est redondant mais celà nous assure le chemin à prendre. C’est à partir de là que la direction artistique va intervenir et apposer l’identité de marque.</p>
-                <p>Grâce à des logiciel de prototypage, nous pourront ‘simuler’ un site internet avec -la plupart de- ses interactions et animations. On entends les animation web les transitions de pages, un défilement particulier ou l’animation d’un bouton.</p>
-                <p>Ces prototype enfin validés, il nous reste la phase technique : l’intégration.</p>
+                <p>Grâce à des logiciel de prototypage, nous pourront ‘simuler’ un site internet avec -la plupart de- ses interactions et animations. On entend les animation web les transitions de pages, un défilement particulier ou l’animation d’un bouton.</p>
+                <p>Ces prototypes enfin validés, il nous reste la phase technique : l’intégration.</p>
 
                 <h3>Cas d'utilisation</h3>
                 <ul>

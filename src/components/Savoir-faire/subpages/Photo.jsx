@@ -39,7 +39,7 @@ export default function Photo() {
 
                 <img src={SavoirPhoto} alt="Représentation de comment bien capturer la lumière." />
         
-                <p>Dans l’univers de la photo, le lieu, la lumière et le temps peuvent être cadrés en faisant des shooting en studio. L’avantage ? Un maîtrise de la lumière et des reflets ! Pensons aux packshot pour les produits. Ils seront parfois exploités comme tel mais peuvent aussi être upgradés en mockup afin d’avoir la même forme de la bouteilles mais différentes étiquettes. Aujourd’hui, la plupart des mockup sont réalisé à partir de photos, mais pour un résultat plus luxe, ce sont amis créateurs 3D que l’on ira solliciter.</p>
+                <p>Dans l’univers de la photo, le lieu, la lumière et le temps peuvent être cadrés en faisant des shooting en studio. L’avantage ? Un maîtrise de la lumière et des reflets ! Pensons aux packshot pour les produits. Ils seront parfois exploités comme tel mais peuvent aussi être upgradés en mockup afin d’avoir la même forme de la bouteilles mais différentes étiquettes. Aujourd’hui, la plupart des mockup sont réalisé à partir de photos, mais pour un résultat plus luxe, ce sont nos amis créateurs 3D que l’on ira solliciter.</p>
 
                 <img src={SavoirPhoto2} alt="Représentation de la cannette de Mad Med" />
 
@@ -48,6 +48,7 @@ export default function Photo() {
                     <Link title="Redirection vers la réalisation d'Aromo." to="/realisation"><li onClick={switchIndex} className="aromo">Aromo</li></Link>
                     <Link title="Redirection vers la réalisation du Décanté." to="/realisation"><li onClick={switchIndex} className="decante">Le Décanté</li></Link>
                     <Link title="Redirection vers la réalisation du Domaine Lionel Brenier." to="/realisation"><li onClick={switchIndex} className="lb">Domaine Lionel Brenier</li></Link>
+                    <Link title="Redirection vers la réalisation de la Brasserie les Danaïdes." to="/realisation"><li onClick={switchIndex} className="danaides">Brasserie les Danaïdes</li></Link>
                 </ul>
             </main>
         </>

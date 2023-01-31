@@ -99,7 +99,7 @@ export default function Realisations () {
 
     return(
       <section className="home-realisations" id="home-realisations">
-        <h2>Les réalisations</h2>
+        <h2>Les Réalisations</h2>
         <p>Une sélection de projets.</p>
         
         <section className="home-realisations-container">

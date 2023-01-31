@@ -11,9 +11,9 @@ export default function DECANTE() {
             </section>
             <section>
                 <p>Le Guide papier :</p>
-                <p>Guide du Vin sur Lyon, le Décanté est à l'initiative de Vitis Vinifera, association d'œnologie. Avec comme moto : Le vin n'est pas réservé à un club élitiste et est à la portée de tous et à toutes !</p>
-                <p>Ce guide présente à tous un produit important dans notre patrimoine & à notre héritage : le vin.</p>
-                <p>Il référencie Bars et Cavistes sur Lyon. Un chapître sur la pédagœnologie, les cartes des vignobles français, des accords mets & vins, un lexique ainsi qu'un espace note.</p>
+                <p>Guide du Vin sur Lyon, le Décanté est à l'initiative de Vitis Vinifera, association d'œnologie. Avec comme moto : Le vin n'est pas réservé à un club élitiste et est à la portée de tous et de toutes !</p>
+                <p>Ce guide présente un produit important dans notre patrimoine & à notre héritage : le vin.</p>
+                <p>Il référencie Bar à vins et Cavistes sur Lyon. Un chapître sur la pédagœnologie, les cartes des vignobles français, des accords mets & vins, un lexique ainsi qu'un espace note viennent enrichir le contenu.</p>
                 <p>Le Décanté est le premier guide du vin sur Lyon, il devait se démarquer pour atteindre la cible et se faire une place. La solution : le travail de la bichromie avec une couleur flash, des illustrations minimalistes & variées, des schémas clairs, des cartographies précises, des sélections de vins à des prix abordables.</p>
                 <p>Le Site Internet :</p>
                 <p>Le site quant à lui présente en premier lieu le guide papier avec une partie de l'équipe et des chiffres clefs.</p>

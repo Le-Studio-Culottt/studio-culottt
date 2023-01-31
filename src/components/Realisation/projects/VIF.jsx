@@ -11,7 +11,7 @@ export default function VIF() {
             <section>
                 <p>Vif Agence de vins… On pourrait presque dire, la fougue de la jeunesse et la sagesse de l’expérience. Ils maîtrisent complètement leur sujet et sont pourtant bien ancrés dans notre monde contemporain et son ‘lifestyle’. Le logo est ‘bien assis’, carré comme leur travail et en même temps vertigineux et clair. Il est comme gravé dans la pierre comme la minéralité de leurs gammes de vin, minutieusement ciselé pour lui apporter de l’équilibre.</p>
                 <p>Le Parcours Libre de Vif Agence de vin, c’est un salon pour découvrir les cuvées de vignerons français et engagés sélectionnés par une team de choc : Hélène & Thomas.</p>
-                <p>C’est le rendez-vous annuel, il existe aussi d’autre évènement avec des invités surprise nommé pop-up. À raison de 5 ou 6 évènement dans l’année, cette agence de vin se démarque par la présentation de ses clients lors de ceux-ci.</p>
+                <p>Il existe aussi d’autres évènements nommés pop-up avec des invités surprise. À raison de 5 ou 6 rendez-vous dans l’année, cette agence de vin se démarque par la présentation de ses clients lors de ceux-ci.</p>
             </section>
         </article>
         </>

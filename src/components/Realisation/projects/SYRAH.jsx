@@ -9,7 +9,7 @@ export default function SYRAH() {
             </section>
             <section>
                 <p>La Syrah petite Serine, une étiquette qui définit un vin épicé, fruité, fougueux on en redemande !</p>
-                <p>Ça a été un honneur de travailler pour Benjamin de BelleCave et d’embellir son projet de lui et ses amis situés dans les coteaux le Boën-sur-Lignon #forez. Cette région si surprenante ! En vin nat qui plus est.</p>
+                <p>Ça a été un honneur de travailler pour Benjamin de Bellecave et d’embellir son projet de lui et ses amis situés dans les coteaux le Boën-sur-Lignon dans le Forez. Cette région si surprenante ! En vin nat qui plus est.</p>
                 <p>Cette cuvée ne s’arrête pas là, elle rapporte aussi à l’association Mi Dagblé, qui œuvre à aider les jeunes en difficulté au Togo.</p>
             </section>
         </article>
